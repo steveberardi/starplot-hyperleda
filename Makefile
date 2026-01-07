@@ -3,7 +3,7 @@ PYTHON=./venv/bin/python
 
 REPO_NAME=starplot-hyperleda
 
-VERSION=$(shell ./venv/bin/python -c 'from build import __version__; print(__version__)')
+VERSION=$(shell ./venv/bin/python -c 'from src.build import __version__; print(__version__)')
 VERSION_CHECK=$(shell gh release list \
 		-R steveberardi/$(REPO_NAME) \
 		--limit 1000 \
@@ -17,8 +17,8 @@ export STARPLOT_DATA_PATH=./data/
 install: venv/bin/activate
 
 format: venv/bin/activate
-	@$(PYTHON) -m ruff format build.py $(ARGS)
-	@$(PYTHON) -m ruff check build.py --fix $(ARGS)
+	@$(PYTHON) -m ruff format src/ $(ARGS)
+# 	@$(PYTHON) -m ruff check build.py --fix $(ARGS)
 
 venv/bin/activate: requirements.txt
 	python -m venv venv
@@ -32,11 +32,17 @@ clean:
 	rm -rf venv
 	rm -rf build
 
+magnitudes: venv/bin/activate
+	$(PYTHON) src/magnitudes.py
+
+plot: venv/bin/activate
+	$(PYTHON) src/plot.py
+
 build: venv/bin/activate
 	rm -rf build
 	rm -f build.log
 	@mkdir -p build
-	$(PYTHON) build.py
+	$(PYTHON) src/build.py
 
 # Releases ------------------------------------------
 release-check:

@@ -1,0 +1,463 @@
+# Query Description
+# Type of request:                 Extract data from a table
+# Name of the selected table:      bref04
+# Description of the table:        Bibliography
+# Restrict with the SQL clause:    iref in (51240, 20521, 51241, 51244, 51245, 51247, 51264, 13039, 51276, 51282, 51293, 51302, 51366, 51368, 51371, 51376, 51382, 51386, 51387, 13064, 51398, 51406, 51421, 51426, 33008, 51441, 51450, 51452, 51460, 55559, 51476, 31007, 31010, 31016, 31017, 51497, 51498, 51505, 51507, 51515, 51517, 51519, 51523, 29000, 29001, 11056, 13091, 51535, 13096, 27001, 27003, 27005, 27012, 27018, 51595, 51600, 27028, 27029, 27030, 51608, 27037, 27038, 27039, 27045, 27047, 25001, 25002, 27051, 27050, 25004, 51627, 25005, 27056, 25003, 27054, 27059, 27060, 51638, 51640, 27066, 27068, 27069, 27070, 27071, 51646, 27073, 27074, 27075, 27076, 13116, 27079, 27080, 27086, 27087, 51666, 27091, 27092, 27093, 27095, 27096, 27097, 27103, 27104, 27106, 27107, 27109, 27115, 27116, 27117, 27118, 27119, 27120, 51697, 27121, 27123, 51702, 51709, 20990, 51710, 51712, 23043, 51733, 51742, 51770, 51778, 13144, 23141, 19052, 23182, 23183, 23185, 23186, 51872, 51874, 51900, 13000, 13001, 13002, 13003, 13004, 13005, 13006, 13007, 13008, 13010, 13011, 13013, 13014, 13015, 13016, 13017, 13018, 13019, 13020, 13021, 23262, 13023, 13024, 13025, 13026, 13027, 23270, 13030, 13031, 13033, 13034, 51946, 13035, 13037, 23277, 23279, 13040, 13041, 13042, 13043, 13044, 13045, 13046, 13047, 13048, 13049, 13050, 13051, 13052, 13057, 13059, 51974, 13062, 51976, 13063, 13066, 13067, 13065, 51981, 13070, 13071, 13072, 51985, 23313, 13075, 13076, 13073, 13078, 23319, 13080, 13074, 13077, 13083, 23323, 13085, 51995, 51994, 13088, 23329, 13089, 13090, 13092, 13093, 23333, 13095, 13094, 13097, 52010, 13099, 52012, 13100, 13102, 13103, 13104, 23344, 13101, 13107, 13108, 13109, 13110, 13106, 52024, 13112, 13113, 13115, 13114, 23357, 13118, 13119, 13120, 13121, 13117, 13123, 13124, 13125, 13126, 13127, 13128, 13129, 13130, 13122, 13132, 13131, 13134, 52046, 13136, 13137, 13138, 13139, 50003, 13140, 13142, 13141, 13143, 52055, 13145, 13146, 52058, 13148, 13149, 13147, 50008, 13152, 13155, 13156, 13157, 13158, 13159, 13160, 13161, 15211, 13163, 13165, 13166, 13169, 13171, 13173, 13174, 13175, 13176, 13177, 13179, 13180, 13181, 13182, 13183, 13184, 15233, 15234, 13187, 13185, 13188, 13186, 13191, 13192, 13190, 15242, 13194, 13196, 13197, 13198, 13193, 13200, 13204, 13205, 13206, 13208, 13209, 13210, 13211, 13212, 13213, 52126, 13215, 13216, 52127, 52130, 13219, 13220, 13221, 13214, 13223, 13226, 13227, 13228, 13229, 13230, 13231, 13234, 13235, 13236, 13237, 13239, 3000, 13240, 13242, 13243, 13244, 13245, 13246, 13247, 13248, 52153, 13250, 13251, 13252, 52165, 13253, 13255, 52168, 13258, 13259, 13260, 13261, 13262, 13263, 13264, 13265, 13266, 13267, 13270, 13271, 13272, 52185, 52186, 13273, 52189, 52191, 52194, 52203, 52215, 52216, 52234, 52237, 52250, 11290, 52274, 44118, 26000, 124362, 124391, 24104, 52025, 24223, 11976, 16073, 24266, 24273, 24285, 24286, 24287, 24291, 24295, 24299, 24314, 24315, 52056, 24354, 24357, 24362, 24365, 24366, 24367, 24368, 24370, 24373, 51001, 24379, 24380, 24387, 51012, 24388, 51015, 51020, 51023, 51024, 24401, 51033, 51055, 51057, 51064, 51090, 4008, 51118, 51140, 51158, 51160, 51169, 51170, 20451, 51174)
+# Description of each column
+# $link[iref,iref]: ---- Code of Bib.Ref.
+# $bibcode: ------------ <NA>
+# refclair: ------------ Bibliographic Reference
+#---------------- -------- --------
+$link[iref,iref] $bibcode refclair
+#---------------- -------- --------
+  3000	          $bibcode	Lauberts A.; 1982, The ESO/Uppsala Survey of the ESO(B) Atlas, European Southern Observatory
+  4008	          $bibcode	Vaucouleurs G. de et al.; 1991, RC3, Springer-Verlag
+ 11056	          $bibcode	Minkowski R.; 1961, Astron. J., 66,558
+ 11290	          $bibcode	Kunkel W.E.,Bradt H.V.; 1971, Astrophys. J., 170,L7
+ 11976	          $bibcode	Martin W.,Penfold J.,Glass I.; 1978, Mon. Not. R. Astron. Soc., 184,15P
+ 13000	          $bibcode	Longo G., de Vaucouleurs A.; 1983, The Univ. of Texas, Monographs in Astro., 3
+ 13001	          $bibcode	Whitford A.E.; 1936, Astrophys. J., 83, 424
+ 13002	          $bibcode	Stebbins J., Whitford A.E.; 1937, Astrophys. J., 86, 247
+ 13003	          $bibcode	Bigay J.H.; 1951, Ann. d'Ap., 14, 319
+ 13004	          $bibcode	Stebbins J., Whitford A.E.; 1952, Astrophys. J., 115, 284
+ 13005	          $bibcode	Bigay J.H., Dumont R., Lenouvel F., Lunel M.; 1953, Ann. d'Ap., 16, 133
+ 13006	          $bibcode	Bigay J.H., Dumont R.; 1954, Ann. d'Ap., 17, 78
+ 13007	          $bibcode	Pettit E.; 1954, Astrophys. J., 120, 413
+ 13008	          $bibcode	Bigay J.H., Dumont R.; 1955, Ann. d'Astrophys., 18, 141
+ 13010	          $bibcode	Holmberg E.; 1958, Lund Medd. II, No. 136,1                                                                                                                  
+ 13011	          $bibcode	Vaucouleurs G. de; 1959, Lowell Obs. Bull., 4, n. 97                                                                                                         
+ 13013	          $bibcode	O'Dell C.R., quoted by Minkowski R.; 1961, Astron. Astrophys., 66, 558
+ 13014	          $bibcode	Tifft W.G.; 1961, Astron. J., 66, 390
+ 13015	          $bibcode	Hodge P.; 1963, Astron. J., 68, 237
+ 13016	          $bibcode	Sandage A.R.; 1963, Astrophys. J., 138, 863
+ 13017	          $bibcode	Tifft W.G.; 1963, Astron. Astrophys., 68, 302
+ 13018	          $bibcode	Bigay J.H.; 1964, Ann. d'Astrophys., 27,170
+ 13019	          $bibcode	Webb C.J.; 1964, Astron. Astrophys., 69, 442
+ 13020	          $bibcode	de Vaucouleurs G., Ables H.; 1965, Publ. Astron. Soc. Pacific, 77, 272
+ 13021	          $bibcode	Kinman T. D.; 1965, Astrophys. J., 142, 1376
+ 13023	          $bibcode	Shobbroock, R.R.; 1966, Mon. Not. R. Astron. Soc., 131, 351
+ 13024	          $bibcode	Corwin H.G.jr.; 1967, Ms. Sc. Thesis, Univ. of Kansas,                                                                                                       
+ 13025	          $bibcode	Fitch W. S., Pacholczyk A. G., Weymann R. J.; 1967, Astrophys. J. Lett., 150, L67
+ 13026	          $bibcode	Hodge P.; 1967, Astrophys. J., 148, 719
+ 13027	          $bibcode	Sandage A.R.; 1967, Astrophys. J. Lett., 150, L177
+ 13030	          $bibcode	Walker M. F., Chincarini G.; 1967, Astrophys. J., 147, 416
+ 13031	          $bibcode	Barnes T. G.; 1968, Thesis, David Dunlap Obs., Univ. Toronto,                                                                                                
+ 13033	          $bibcode	Dibai E.A., et al.; 1968, Astron. Circ. (USSR) n. 481,2                                                                                                      
+ 13034	          $bibcode	Mc Clure R.D., van den Bergh S.; 1968, Astron. J., 73, 1008
+ 13035	          $bibcode	Rood H.J., Baum W.A.; 1968, Astrophys. J., 73, 442
+ 13037	          $bibcode	Wisnienski, W.A., Kleinmann D.E.; 1968, Astron. J., 73, 866
+ 13039	          $bibcode	Dibai E.A., Zaitseva, G.V., Lyutyi V.M.; 1969, Astron. Zh., 46, 420
+ 13040	          $bibcode	Fairall A., Angione R.J.; 1969, Publ. Astron. Soc. Pacific, 81, 685
+ 13041	          $bibcode	Weedman D.W., Khachikian E.Y.; 1969, Astrofizika, 5, 113
+ 13042	          $bibcode	Sandage A.R., Becklin E.E., Neugebauer G.; 1969, Astrophys. J., 157, 55
+ 13043	          $bibcode	Tifft W.G.; 1969, Astron. J., 74, 354
+ 13044	          $bibcode	Westerlund B.E., Wall J.V.; 1969, Astron. J., 74, 335
+ 13045	          $bibcode	Dibai E.A.; 1970, Astofizika, 6, 350
+ 13046	          $bibcode	Dupuy D.L.; 1970, Astron. J., 75, 1143
+ 13047	          $bibcode	Lasker B.M.; 1970, Astron. J., 75, 21
+ 13048	          $bibcode	Neff J.S.; 1970, Mon. Not. R. Astron. Soc., 149, 45
+ 13049	          $bibcode	Peterson B.A.; 1970, Astron. J., 75, 695
+ 13050	          $bibcode	Sargent W.L.W.; 1970, Astrophys. J., 160, 405
+ 13051	          $bibcode	Ables H.; 1971, Publ. U. S. Naval Obs., 20, 1                                                                                                                
+ 13052	          $bibcode	Lynds R.; 1971, Astrophys. J. Lett., 168, L87
+ 13057	          $bibcode	Arakelian M.A., Dibai E.A., Lyutyi V.M.; 1972, Astofizika, 8, 473
+ 13059	          $bibcode	Sandage A.R.; 1972, Astrophys. J., 176, 21
+ 13062	          $bibcode	Smith M.G., Weedman D.W., Spinrad H.; 1972, Astrophys. J. Lett., 11, 21
+ 13063	          $bibcode	Tsikoudi V.; 1979, Astrophys. J., 234, 842
+ 13064	          $bibcode	Andrew P.J.; 1973, quoted by Glass I. S., M. N., 162, 35p
+ 13065	          $bibcode	Disney M.J.; 1973, Astrophys. J. Lett., 181, L55
+ 13066	          $bibcode	Freeman K.; 1973, private communication,                                                                                                                     
+ 13067	          $bibcode	Hodge P.; 1973, Astrophys. J., 182, 671
+ 13070	          $bibcode	Penston M.V.; 1973, Mon. Not. R. Astron. Soc., 162, 359
+ 13071	          $bibcode	Sasov A.V., Lyutyi V.M.; 1973, Astron. Zh., 50, 253=Sov. A.J., 17, 169
+ 13072	          $bibcode	Sandage A.R.; 1973, Astrophys. J., 183, 711
+ 13073	          $bibcode	Tifft W.G.; 1973, Publ. Astron. Soc. Pacific, 85, 283
+ 13074	          $bibcode	Vorontsov-Velyaminov B.A., Lyutyi V.M., Zaitseva, G.V.; 1973, Sov. A. J., 16, 71=1972, Astron. Zh., 49, 93
+ 13075	          $bibcode	Weedman D.W.; 1973, Astrophys. J., 183, 29
+ 13076	          $bibcode	Alcaino G.; 1974, Astron. Astrophys. Suppl., 13, 305
+ 13077	          $bibcode	Angione R.J.; 1974, private communication,                                                                                                                   
+ 13078	          $bibcode	Arkhipova V.P., Saveljeva M.V.; 1974, Astron. Circ. (USSR), n. 814                                                                                           
+ 13080	          $bibcode	Karachentseva V.E., Kostyuk I.P.; 1974, Astrofizika, 10, 632
+ 13083	          $bibcode	Khachikian E.Y., Weedman D.W.; 1974, Astrophys. J., 192, 581
+ 13085	          $bibcode	Osmer P.S., Smith M.G., Weedman D.W.; 1974, Astrophys. J., 189, 187
+ 13088	          $bibcode	Chincarini G., Walker M.F.; 1975, private communication,                                                                                                     
+ 13089	          $bibcode	Pacholczyk A.G., Tarenghi M.; 1975, Mem. S. A. Italia, 46, 199
+ 13090	          $bibcode	Sandage A.R.; 1975, Astrophys. J., 202, 563
+ 13091	          $bibcode	Ulrich M.H., Kinman T.D., Lynds R., Rieke G.H., Ekers R. D., Astrophys. J.; 1975, 198, 261                                                                   
+ 13092	          $bibcode	Weedman D.W.; 1975, Astrophys. J., 195, 587
+ 13093	          $bibcode	Alcaino G.; 1976, Astron. Astrophys.p. Suppl., 26, 261
+ 13094	          $bibcode	Bucknell M.F., Peach F.V.; 1976, Observatory, 96, 61
+ 13095	          $bibcode	Graham J.; 1976, Astron. J., 81, 681
+ 13096	          $bibcode	van den Bergh S.; 1976, Astron. J., 81, 795, 797
+ 13097	          $bibcode	Weedman D.W.; 1976, Astrophys. J., 203, 6
+ 13099	          $bibcode	Angione R.J.; 1977, private communication,                                                                                                                   
+ 13100	          $bibcode	Ardeberg A., Bergvall N.; 1977, Astron. Astrophys., 61, 493
+ 13101	          $bibcode	Disney M.J., Pottash S.; 1977, Astron. Astrophys., 60, 43
+ 13102	          $bibcode	Gallagher J.S., Hudson H.S.; 1977, Publ. Astron. Soc. Pacific, 88, 824
+ 13103	          $bibcode	Godwin J.C., Bucknell M.F., Dixon K.L., Green M.R., Peach F.V., Wallis R.E.; 1977, Observatory, 97, 238
+ 13104	          $bibcode	Huchra J.P.; 1977, Astrophys. J. Suppl., 35, 171
+ 13106	          $bibcode	van den Bergh S.; 1977, Astrophys. J., 212, 317
+ 13107	          $bibcode	Visvanathan N., Griersmith D.; 1977, Astron. Astrophys., 59, 317
+ 13108	          $bibcode	Bergvall N.; 1978, Astron. Astrophys. Suppl., 33, 243
+ 13109	          $bibcode	Green M.R., Dixon K.L.; 1978, Observatory, 98, 166
+ 13110	          $bibcode	Keel V.C., Weedman D.W.; 1978, Astron. J., 83, 1
+ 13112	          $bibcode	Sandage A.R., Visvanathan N.; 1978, Astrophys. J., 223, 707
+ 13113	          $bibcode	Tomov A.H.; 1978, Soviet A. J., 22, 540 (Astron. Zh., 55, 944)
+ 13114	          $bibcode	Dottori H.A.; 1979, Astron. Astrophys. Suppl. Ser., 37, 519
+ 13115	          $bibcode	Freeman K.; 1979, Astron. Astrophys., 76, 230
+ 13116	          $bibcode	Gallagher J.S.; 1979, Astron. J., 84, 1281
+ 13117	          $bibcode	Kodaira K., Iye M., Nishimura S.; 1978, Pub. Astron. Soc. Japan, 31, 647
+ 13118	          $bibcode	Longmore A.J., Sharpless, R.M.; 1979, private communication,                                                                                                 
+ 13119	          $bibcode	Persson S.E., Frogel J.A., Aaronson M.; 1979, Astrophys. J. Suppl., 39, 61
+ 13120	          $bibcode	Tomov A.H.; 1979, Astron. Zh., 56, 949
+ 13121	          $bibcode	Wegner G.; 1979, Astrophys. Sp. Sci., 60, 15
+ 13122	          $bibcode	Bigay J.H., Paturel G.; 1980, Astron. Astrophys. Suppl. Ser., 42, 69
+ 13123	          $bibcode	Corwin H.G.jr.; 1980, Mon. Not. R. Astron. Soc., 191, 1
+ 13124	          $bibcode	Griersmith D.; 1980, Astron. J., 85, 789
+ 13125	          $bibcode	Peterson C.J.; 1980, Astron. J., 85, 226
+ 13126	          $bibcode	Romanishin W.; 1980, Ph. D., Univ. Arizona                                                                                                                   
+ 13127	          $bibcode	Smyth R.J., Stobie R.S.; 1980, Mon. Not. R. Astron. Soc., 190, 631
+ 13128	          $bibcode	Vardanian P.A., Tomov A.H.; 1980, Soobshch. Byurakan, 52, 3                                                                                                  
+ 13129	          $bibcode	Aaronson M., Mould J.; 1981, Publ. Astron. Soc. Pacific, 93, 20
+ 13130	          $bibcode	Boronson T.; 1981, Astrophys. J. Suppl. Ser., 46, 177
+ 13131	          $bibcode	Dibai E.A., Doroshenko V., Postnov K.A.; 1981, Pis'ma Astron. Zh., 7,295
+ 13132	          $bibcode	West R., et al.; 1981, Astron. Astrophys. Suppl. Ser., 46, 57
+ 13134	          $bibcode	Peterson B.A., Fricke K., Biermann P.; 1981, Publ. Astron. Soc. Pacific, 93, 281
+ 13136	          $bibcode	Arkhipova V.P.; 1982, Sov. A. J., 26, 129
+ 13137	          $bibcode	Bothun G.; 1982, Ph. D. Kitt Peak Nat. Obs.,                                                                                                                 
+ 13138	          $bibcode	Buta R.; 1982, private communication,                                                                                                                        
+ 13139	          $bibcode	Brosh N., Shaviv G.; 1982, Astrophys. J., 253, 526
+ 13140	          $bibcode	Corwin H.G.jr.; 1982, private communication,                                                                                                                 
+ 13141	          $bibcode	de Vaucouleurs G., de Vaucouleurs A., Mount Stromlo and Siding Spring Observatories; 1983, private communication                                             
+ 13142	          $bibcode	Griersmith D.; 1982, Astron. J. 87, 462
+ 13143	          $bibcode	Griersmith D., Hyland A.R., Jones B.; 1982, Astron. J., 87, 1106
+ 13144	          $bibcode	Michard R.; 1982, Astron. Astrophys. Suppl. Ser., 49, 591
+ 13145	          $bibcode	Peterson C.J.; 1982, Publ. Astron. Soc. Pacific, 94, 404
+ 13146	          $bibcode	Smyth, R.J.; 1982, private communication,                                                                                                                    
+ 13147	          $bibcode	Sadler E.; 1982, Ph. D., Mount Stromlo and Siding Spring Obs.                                                                                                
+ 13148	          $bibcode	Stone R.P.S.; 1982, Astrophys. J. Suppl. Ser., 48, 395
+ 13149	          $bibcode	Veron M., Veron P., Tarenghi M.; 1982, Astron. Astrophys., 113, 46
+ 13152	          $bibcode	Hodge P.; 1969, S.A.O. special report, 306, 3                                                                                                                
+ 13155	          $bibcode	Gallagher J.S., Hudson H.S.; 1976, Astrophys. J., 209, 389
+ 13156	          $bibcode	Sandage A.R.; 1976, Publ. Astron. Soc. Pacific, 88, 367
+ 13157	          $bibcode	Sersic J.L.; 1976, Astrophys. and Sp. Sci., 39,477
+ 13158	          $bibcode	Strom S.E., Strom K.M., Goad J.W., Vrba, F.J., Rice W.; 1976, Astrophys. J., 204, 684
+ 13159	          $bibcode	Tapia S., Craine E.R., Johnson K.; 1976, Astrophys. J., 203, 291
+ 13160	          $bibcode	Theys J.C., Speigel E.A.; 1976, Astrophys. J., 208, 650
+ 13161	          $bibcode	van den Bergh S.; 1976, Astrophys. J., 208, 673
+ 13163	          $bibcode	Veron M., Veron P.; 1976, Astron. Astrophys. Suppl. Ser., 27, 287
+ 13165	          $bibcode	West R.; 1976, Astron. Astrophys., 46, 327
+ 13166	          $bibcode	Zasov, A.V., Lyutyi V.M.; 1976, Pis'ma Zh., 2, 323
+ 13169	          $bibcode	Massey P.; 1977, Publ. Astron. Soc. Pacific, 89, 13
+ 13171	          $bibcode	van den Bergh S.; 1977, Publ. Astron. Soc. Pacific, 89, 746
+ 13173	          $bibcode	Bohuski T.J., Fairall A., Weedman D.W.; 1978, Astrophys. J., 221, 776
+ 13174	          $bibcode	Davidson K., Kinman T.D.; 1978, Astrophys. J., 225, 776
+ 13175	          $bibcode	Dibai E.A., Doroshenko V.T., Terebizh V.Y.; 1978, Sov. A.J., 22, 536
+ 13176	          $bibcode	Lauberts A., Bergvall N., Ekman A.B.G., Westerlund B.E.; 1979, Astron. Astrophys. Suppl. Ser., 35, 55
+ 13177	          $bibcode	Miller H.R., McGimsey B.Q.; 1978, Astrophys. J., 220, 19
+ 13179	          $bibcode	O'Dell S.L., Puschell J.J., Stein W.A., Owen F., et al.; 1978, Astrophys. J., 224, 22
+ 13180	          $bibcode	O'Dell S.L., Puschell J.J., Stein W.A., et al.; 1978, Astrophys. J., 219, 818
+ 13181	          $bibcode	O'Dell S.L., Puschell J.J., Stein W.A., Warner J.W.; 1978, Astrophys. J. Suppl. Ser., 38, 267
+ 13182	          $bibcode	Peterson C.J.; 1978, Astrophys. J., 226, 75
+ 13183	          $bibcode	Puschell J.J.; 1978, Publ. Astron. Soc. Pacific, 90, 652
+ 13184	          $bibcode	Rubin V.C., Ford W.K., Strom K.M., Strom S.E., Romanishin W.; 1978, Astrophys. J., 224, 782
+ 13185	          $bibcode	Schwartz R.D.; 1978, Publ. Astron. Soc. Pacific, 90, 393
+ 13186	          $bibcode	Strom K.M., Strom S.E.; 1978, Astron. J., 83, 73
+ 13187	          $bibcode	Strom S.E., Strom K.M.; 1978, Astron. J., 83, 732
+ 13188	          $bibcode	Strom K.M., Strom S.E.; 1978, Astron. J., 83, 1293
+ 13190	          $bibcode	Thompson L.A., Welker W.J., Gregory S.A.; 1978, Publ. Astron. Soc. Pacific, 90, 644
+ 13191	          $bibcode	West R., Danks A.C., Alcaino G.; 1978, Astron. Astrophys., 62, L13, Astron. Astrophys., 65, 151
+ 13192	          $bibcode	Doroshenko V.T., Terebizh V.Y.; 1979, Sov. Ast. Lett., 5, 305
+ 13193	          $bibcode	Fosbury R.A.E., Wall J.V.; 1979, M. N., 189, 79
+ 13194	          $bibcode	Huchra J.P., Schild R., Davis M.; 1979, Astron. J., 84, 331
+ 13196	          $bibcode	Lyutyi V.M.; 1979, Sov. A. J., 23, 518
+ 13197	          $bibcode	Miller H.R.; 1979, Publ. Astron. Soc. Pacific, 91, 624
+ 13198	          $bibcode	Miller H.R.; 1979, Astrophys. J., 227, 52
+ 13200	          $bibcode	Rose J.A., Graham J.; 1979, Astrophys. J., 231, 320
+ 13204	          $bibcode	Gallagher J.S., Faber S., Burstein D.; 1980, Astrophys. J., 235, 743
+ 13205	          $bibcode	Huchra J.P.; 1980, Astrophys. J. Suppl. Ser., 238, L11
+ 13206	          $bibcode	Lebofsky M.J., Rieke G.H.; 1980, Nature, 284, 410
+ 13208	          $bibcode	Peterson C.J., Huntley J.M.; 1980, Astrophys. J., 242, 913
+ 13209	          $bibcode	Peterson C.J.; 1980, Publ. Astron. Soc. Pacific, 92, 397
+ 13210	          $bibcode	Puschell J.J., Stein W.A.; 1980, Astrophys. J., 237, 331
+ 13211	          $bibcode	Romanov A.M.; 1980, Ast. Tsirk., 1128, 3
+ 13212	          $bibcode	Schweizer F.; 1980, Astrophys. J., 237, 303
+ 13213	          $bibcode	West R., Grosbol P., Sterken C.; 1980, ESO preprint, 101                                                                                                     
+ 13214	          $bibcode	Vanderriest C., Herpe G.; 1980, Astron. Astrophys. Suppl. Ser., 39, 395
+ 13215	          $bibcode	Babkin I.G., Didenko A.W., Khonin G.W.; 1981, Ast. Tsirk., 1157, 8
+ 13216	          $bibcode	Bergvall N., Ekman A.B.G., Lauberts A.; 1981, Astron. Astrophys., 95, 266
+ 13219	          $bibcode	Danks A.C., Alcaino G.; 1981, Astron. Astrophys., 98, 223
+ 13220	          $bibcode	Doroshenko V.T., Terebizh V.Y.; 1981, Astofizika, 17, 667
+ 13221	          $bibcode	Gallagher J.S., Hunter D.A., Knapp G.R.; 1981, Astron. J., 86, 334
+ 13223	          $bibcode	Hutter D.J., Mufson S.L.; 1981, Astron. J., 86, 1585
+ 13226	          $bibcode	Mould J.; 1981, Publ. Astron. Soc. Pacific, 93, 25
+ 13227	          $bibcode	Mufson S.L., Hutter D.J.; 1981, Astrophys. J. Lett., 248, 161
+ 13228	          $bibcode	Puschell J.J.; 1981, Astron. J., 86, 16
+ 13229	          $bibcode	Thuan T.X., Romanishin W.; 1981, Astrophys. J., 248, 439
+ 13230	          $bibcode	van Genderen A.M., Meurs E.J.A; 1981, Astron. Astrophys., 96, 78
+ 13231	          $bibcode	Wirth, A.; 1981, Astron. J., 86, 981
+ 13234	          $bibcode	Few J.M.A., Madore B.F., Arp H.C.; 1982, M. N., 199, 633
+ 13235	          $bibcode	Hodge P.; 1982, Astron. J., 87, 1668
+ 13236	          $bibcode	Hutter D.J., Mufson S.L., et al.; 1982, "4 years IUE research", NASA Conf. Pub., 2238, 189                                                                   
+ 13237	          $bibcode	Jensen E.B., Thuan T.X.; 1982, Astrophys. J. Suppl. Ser., 50, 421
+ 13239	          $bibcode	Mufson S.L., Hutter D.J., et al.; 1982, 4 years IUE research, NASA Conf. Pub., 2238, 185                                                                     
+ 13240	          $bibcode	Romanishin W., Strom S.E., Strom K.M.; 1982, Astrophys. J., 258, 77
+ 13242	          $bibcode	Caldwell N.; 1983, Astrophys. J., 268, 90
+ 13243	          $bibcode	Caldwell N.; 1983, Astron. J., 88, 804
+ 13244	          $bibcode	Doroshenko V.T., Terebizh V.Y.; 1983, Astofizika, 19, 5
+ 13245	          $bibcode	Gallagher J.S., Bushouse H.; 1983, Astron. J., 88, 55
+ 13246	          $bibcode	Hackwell J.A., Schweizer F.; 1983, Astrophys. J., 265, 643
+ 13247	          $bibcode	Huchra J.P., Geller M.J., Gallagher J.S., Hunter D.A., hartmann, L., et al.; 1983, Astrophys. J., 274, 125
+ 13248	          $bibcode	Keel W.; 1983, Private communication,                                                                                                                        
+ 13250	          $bibcode	McAlary C.W., McLaren R.A., McGonegal R.J., Maza J.; 1983, Astrophys. J. Suppl. Ser., 52, 341
+ 13251	          $bibcode	Peterson B.A., Flotz C.B., Miller H.R., et al.; 1983, Astron. J., 88, 926
+ 13252	          $bibcode	Rafanelli P., Schulz H.; 1983, Astron. Astrophys., 117, 109
+ 13253	          $bibcode	Romanishin W.; 1983, M. N., 204, 909
+ 13255	          $bibcode	Sitko M.L., Stein W.A., Zhang, Y.X., Wisnienski, W.A.; 1983, Publ. Astron. Soc. Pacific, 95, 724
+ 13258	          $bibcode	Buta R.; 1984, private communication                                                                                                                         
+ 13259	          $bibcode	Buta R., Corwin H.G.jr.; 1984, Submitted to A. J.,                                                                                                           
+ 13260	          $bibcode	Corwin H.G.jr.; 1984, unpublished,                                                                                                                           
+ 13261	          $bibcode	Chincarini G., Tarenghi M., Sol H., Crane P, Manousoyannaki, I., Materne J.; 1984, Astron. Astrophys. Suppl. Ser., 57, 1
+ 13262	          $bibcode	Danks A.C.; 1984, submit. to Astron. Astrophys.,                                                                                                             
+ 13263	          $bibcode	Dibai E.A., Doroshenko V.T., Postnov K.A.; 1984, Sov. A. J., 28, 1
+ 13264	          $bibcode	Lauberts A.; 1984, Astron. Astrophys. Suppl. Ser., 58, 249
+ 13265	          $bibcode	lugger, P.M.; 1984, Astrophys. J., 278, 51
+ 13266	          $bibcode	Melnick j., Quintana H.; 1984, Astron. J., 89, 1288
+ 13267	          $bibcode	Mufson S.L., Hutter D.J., Hackney, K.R., Hackney R.L., Urry C.M., et al.; 1984, Astrophys. J., 285, 571
+ 13270	          $bibcode	Sparks W.B., Disney M.J., Wall J.V., rodgers, A.W.; 1984, M. n., 207, 445                                                                                    
+ 13271	          $bibcode	Veron-Cetty M.P.; 1984, Astron. Astrophys. Suppl. Ser., 58, 665
+ 13272	          $bibcode	Worrall D.M., Puschell J.J., Bruhweiler F.C., Miller H.R., Rudy R.J., et al.; 1984, Astrophys. J., 278, 521
+ 13273	          $bibcode	Worrall D.M., Puschell J.J., Bruhweiler F.C., Miller H.R., et al.; 1984, Publ. Astron. Soc. Pacific, 96, 699
+ 15211	          $bibcode	Dressler A., et al.; 1987, Astrophys. J., 313, 42
+ 15233	          $bibcode	Simien F., Prugniel P.; 1997, Astron. Astrophys. Suppl. Ser., 122, 521
+ 15234	          $bibcode	Simien F., Prugniel P.; 1997, Astron. Astrophys. Suppl. Ser., 126, 15
+ 15242	          $bibcode	Muller K.R., Wegner G., Raychaudhury S., Freudling W.; 1999, Astron. Astrophys. Suppl. Ser., 140, 327
+ 16073	          $bibcode	Sersic J.L., Bajaja E., Colomb R.; 1977, Astron. Astrophys., 59, 19
+ 19052	          $bibcode	Kormendy J.; 1977, Astrophys. J., 214, 359
+ 20451	          $bibcode	Carignan C., Beaulieu S., 1989 ApJ 347, 760
+ 20521	          $bibcode	Broeils, A.H., 1992 A&A 256, 19
+ 20990	          $bibcode	Makarova L. 1999 A&AS 139,  491 
+ 23043	          $bibcode	Bothun G.D., Aaronson M., Schommer R.A., Huchra J., Mould J.R.; 1984, Astrophys. J., 278, 475
+ 23141	          $bibcode	Davies R.D., Kinman T.D.; 1984, Mon. Not. R. astr. Soc., 207, 173
+ 23182	          $bibcode	Wang G., Clowes R.G., Leggett S.K., MacGillivray H.T., Savage A.; 1991, Mon. Not. R. Astron. Soc., 248, 112
+ 23183	          $bibcode	Jobin M., Carignan C.; 1990, Astron. J., 100(3), 648
+ 23185	          $bibcode	Staveley-Smith L., Bland J., Axon D.J., Davies R.D., Sharples R.M.; 1990, Astrophys. J., 364, 23
+ 23186	          $bibcode	Schulte-Ladbeck R.E., Hopp U.; 1990, Astron. Astrophys., 239,69
+ 23262	          $bibcode	Szomoru A., van Gorkom J.H., Gregg M., De Jong R.S.; 1993, Astron. J., 105(2), 464
+ 23270	          $bibcode	Sprayberry D., Bernstein G.M., Impey C.D., Bothun G.D.; 1995, Astrophys. J., 438, 72
+ 23277	          $bibcode	Szomoru A., van Gorkom J.H., Gregg M.; 1996, Astron. J., 111 (6), 2141
+ 23279	          $bibcode	Hoffman G.L., Salpeter E.E., Farhat B., Roos T., Williams H.L., Helou G.; 1996, Astrophys. J. Suppl. Ser., 105, 269
+ 23313	          $bibcode	Karachentsev I.D., Makarov D.I.; 1998, Astron. Astrophys., 331, 891
+ 23319	          $bibcode	Spitzak J.G., Schneider S.E.; 1998, Astrophys. J. Suppl. Ser., 119, 159
+ 23323	          $bibcode	Kraan-Korteweg R.C.; 2000, Astron. Astrophys. Suppl. Ser., 141, 123
+ 23329	          $bibcode	Cabanela J.E., Dickey J.M.; 1999, Astron. J., 118, 46
+ 23333	          $bibcode	Huchtmeier W. K., Karachentsev I. D., Karachentseva V. E., Ehle M. 2000 A&AS 141,  469 
+ 23344	          $bibcode	Karachentseva V.E., Karachentsev I.D.; 2000, Astron. Astrophys. Suppl. Ser., 146, 359
+ 23357	          $bibcode	Karachentseva V.E., Prugniel P., Vennik J., Richter G.M., Thuan T.X., Martin J.M.; 1996, Astron. Astrophys. Suppl. Ser., 117, 343
+ 24104	          $bibcode	Chincarini G.,Tarenghi M.,Bettis C.; 1981, Astron. Astrophys., 96,106
+ 24223	          $bibcode	Parker Q.A., Watson F.G.; 1990, Astron. Astrophys. Suppl. Ser., 84, 455
+ 24266	          $bibcode	van der Broek A.C., van Driel W., de Jong T., Lub J., de Grijp H.K., Goudfrooij P.; 1991, Astron. Astrophys. Suppl. Ser., 91, 61
+ 24273	          $bibcode	Hopp U., Kuhn B., Thiele U., Birkle K., Elsasser H., Kovachev B.; 1995, Astron. Astrophys. Suppl. Ser., 109, 537
+ 24285	          $bibcode	Salzer J.J., Moody J.W., Rosenberg J.L., Gregory S.A., Newberry M.V.; 1995, Astron. J., 109 (6), 2376
+ 24286	          $bibcode	Drinkwater M.J., Currie M.J., Young C.K., Hardy E., Yearsley J.M.; 1996, Mon. Not. R. Astron. Soc., 279, 595
+ 24287	          $bibcode	Loveday J., Peterson B.A., Maddox S.J., Efstathiou G.; 1996, Astrophys. J. Suppl. Ser., 107, 201 (APM)
+ 24291	          $bibcode	Fairall A., Woudt P.A., Kraan-Korteweg R.C.; 1998, Astron. Astrophys. Suppl. Ser., 127, 463
+ 24295	          $bibcode	Andreuzzi G., Bardelli S., Scaramella R., Zucca E.; 1998, Astron. Astrophys., 337, 17
+ 24299	          $bibcode	Quintana H., Ramirez A., Melnick j., Raychaudhury S., Slezak E.; 1995, Astron. J., 110(2), 463                                                               
+ 24314	          $bibcode	Willmer C.N.A., Focardi P., Chan R., Pellegrini P.S., Da Costa L.N.; 1991, Astron. J., 101(1), 57
+ 24315	          $bibcode	Karachentsev I.D., Kopylov A.I.; 1990, Mon. Not. R. Astron. Soc., 243, 390
+ 24354	          $bibcode	Colless M., Dunn A.M.; 1996, Astrophys. J., 458, 435
+ 24357	          $bibcode	Di Nella H., Couch W.J., Parker Q.A., Paturel G.; 1997, Mon. Not. R. Astron. Soc., 287, 472
+ 24362	          $bibcode	Da Costa L.N., et al.; 1998, Astron. J., 116, 1
+ 24365	          $bibcode	Ratcliffe A., Shanks T., Parker Q.A., et al.; 1998, Mon. Not. R. Astron. Soc., 300, 417
+ 24366	          $bibcode	Woudt P.A., Kraan-Korteweg R.C., Fairall A.; 1999, Astron. Astrophys.,  352, 39
+ 24367	          $bibcode	Ugryumov A.V., et al.; 1999, Astron. Astrophys. Suppl. Ser., 135, 511
+ 24368	          $bibcode	Pustilnik S.A., et al.; 1999, Astron. Astrophys. Suppl. Ser., 137, 299
+ 24370	          $bibcode	Vettolani G., et al.; 1998, Astron. Astrophys. Suppl. Ser., 130, 323
+ 24373	          $bibcode	Solanes J.M., Stein P.; 1998, Astron. Astrophys. Suppl. Ser., 131, 221
+ 24379	          $bibcode	Saunders W., Sutherland W.J., Maddox S.J.; 2000, Mon. Not. R. Astron. Soc., 317, 55
+ 24380	          $bibcode	Castander F.J., Nicho R.C., Merrelli A., Burles S., Pope A., et al.; 2001, Astron. J., 121, 2331
+ 24387	          $bibcode	Colless M., et al.; 2001, Mon. Not. R. Astron. Soc., 328, 1039
+ 24388	          $bibcode	Willmer C., Koo D.C., Allman N., Kurtz M.J., Szalay A.S.; 1996, Astrophys. J. Suppl. Ser., 104, 199
+ 24401	          $bibcode	Colless M., Peterson B.A., Jackson C.A., et al.; 2003, THE 2DF GALAXY REDSHIFT SURVEY FINAL DATA RELEASE                                                    
+ 25001	          $bibcode	Source A (Ables)                                                                                                                                             
+ 25002	          $bibcode	Source B (Bertola)                                                                                                                                           
+ 25003	          $bibcode	Source F (Fraser)                                                                                                                                            
+ 25004	          $bibcode	Source G (Vaucouleurs)                                                                                                                                       
+ 25005	          $bibcode	Source T (Tsikoudi)                                                                                                                                          
+ 26000	          $bibcode	Binggeli B., Sandage A., Tammann G.A.; 1985, Astron. J., 90, 1681
+ 27001	          $bibcode	Michard R.; 1985, Astron. Astrophys. Suppl. Ser. 59, 205
+ 27003	          $bibcode	Buta R.J., Corwin H.G. Jr.; 1986, Astrophys. J. Suppl. Ser., 62,255
+ 27005	          $bibcode	Pence W.D.,Vaucouleurs G. de; 1985, Astrophys. 298, 560                                                                                                      
+ 27012	          $bibcode	Dickens R.J., Malcolm J. Currie, Lucey J.R.; 1986, Mon. Not. R. astr. Soc., 220, 679-711
+ 27018	          $bibcode	Ichikawa S.I., Wakamatsu K.I., Okamura S.; 1986, ApJ. Sup. Ser., 60,475
+ 27028	          $bibcode	Hickson P., Kindl, E., Auman, J.R.; 1989, Astrophys. J., 70, 687
+ 27029	          $bibcode	Alonso M.V., Sersic J.L.; 1988, Observatory 108,169
+ 27030	          $bibcode	Capaccioli M.,Lorenz H.,Afanasjev V.L.; 1986, Astron. Astrophys., 169, 54
+ 27037	          $bibcode	Gavazzi G., Garilli B., Boselli A.; 1990, Astron. Astrophys. Suppl. Ser., 83, 399
+ 27038	          $bibcode	Acker A., Stenholm B., Veron P.; 1991, Astron. Astrophys. Suppl. Ser. 87, 499
+ 27039	          $bibcode	Ferguson H.C.; 1989, Astron. J., 98(2), 367
+ 27045	          $bibcode	Hopp U., Schulte-Ladbeck R.E.; 1991, Astron. Astrophys., 248,1
+ 27047	          $bibcode	Schombert J., Bothun G.D.; 1988, Astron. J., 95, 1389
+ 27050	          $bibcode	Pence W.D., Taylor K., Atherton P.; 1990, Astrophys. J., 357, 415
+ 27051	          $bibcode	Gavazzi G., Boselli A., Kennicutt R.C.; 1991, Astron. J., 101,1207
+ 27054	          $bibcode	Bernard A.; 1982, Publ. Astron. Soc. Pacific, 94, 700
+ 27056	          $bibcode	Karachentsev I.D.; 1987, Catalogue of pair of galaxies,
+ 27059	          $bibcode	Binggeli B., Cameron L.M.; 1993, Astron. Astrophys. Suppl. Ser., 98, 297
+ 27060	          $bibcode	Colless M., et al.; 1993, Mon. Not. R. Astron. Soc., 262, 475
+ 27066	          $bibcode	Zou Z., Chen J., Tang X., Bian Y.; 1989, Bull. Inform. CDS, 37, 173                                                                                          
+ 27068	          $bibcode	Jorgensen I., Franx M., Kjaergaard P.; 1992, Astron. Astrophys. Suppl. Ser., 95, 489
+ 27069	          $bibcode	Stoll D., Tiersch B., Oleak H., MacGillivray H.T.; 1994, Astron. Nachr. 315, 1,11-61,
+ 27070	          $bibcode	Stoll D., Tiersch B., Oleak H., MacGillivray H.T.; 1994, Astron. Nach, 315,2,97-150
+ 27071	          $bibcode	Buta R.J., Crocker D.A.; 1992, Astron. J., 103, 1804
+ 27073	          $bibcode	Caon N., Capaccioli M., D'Onofrio M.; 1994, Astron. Astrophys. Suppl. Ser., 106, 199
+ 27074	          $bibcode	Metcalfe N., Godwin J., Peach F.V.; 1994, Mon. Not. R. Astron. Soc., 267, 431
+ 27075	          $bibcode	Corwin H.G., Buta R.J., Vaucouleurs G. de; 1994, Astron. J., 108, 6
+ 27076	          $bibcode	Meurer G.R., Mackie G., Carignan C.; 1994, Astron. J., 107, 2021
+ 27079	          $bibcode	Heraudeau P.; 1996, these doctorale (Observatoire de Lyon)                                                                                                   
+ 27080	          $bibcode	Impey C. D., Sprayberry D., Irwin M. J., Bothun G. D. 1996 ApJS 105,  209 
+ 27086	          $bibcode	Metcalfe N., Ratcliffe A., Shanks T., Fong R.; 1998, Mon. Not. R. Astron. Soc., 294, 147
+ 27087	          $bibcode	Makarova L., Karachentsev I., Takalo L. O., Heinaemaeki P., Valtonen M. 1998 A&AS 128,  459  --  Detailed images and distance measurements for eighteen dwarf irregular galaxies in the Canes Venatici cloud 
+ 27091	          $bibcode	Salzer J.J., MacAlpine G.M., Boroson T.A.; 1989, Astrophys. J. Suppl. Ser., 70, 479
+ 27092	          $bibcode	Young C.K., Currie M.J.; 1998, Astron. Astrophys. Suppl. Ser., 127, 367
+ 27093	          $bibcode	Cunow B.; 1998, Astron. Astrophys. Suppl. Ser., 129, 593
+ 27095	          $bibcode	Surace C., Comte G.; 1998, Astron. Astrophys. Suppl. Ser., 133,171
+ 27096	          $bibcode	Lu N.Y.; 1998, Astrophys. J., 506, 673
+ 27097	          $bibcode	Klemola A.R., Hanson R.B., Jones B.F.; 1994, Bull. Am. Astron. Soc., vol.26, (2), 898 (NPM)                                                                  
+ 27103	          $bibcode	G. Paturel, Y. Fang, R. Garnier, C. Petit and J. Rousseau; 2000, Astron. Astrophys. Suppl. Ser., 146, 19
+ 27104	          $bibcode	Jerjen H., Dressler A.; 1997, Astron. Astrophys. Suppl. Ser., 124, 1
+ 27106	          $bibcode	Durret F., Felenbok P., Lobo C., Slezak E.; 1998, Astron. Astrophys. Suppl. Ser., 129, 281
+ 27107	          $bibcode	Gavazzi G., Randone I.; 1994, Astron. Astrophys. Suppl. Ser., 107, 285
+ 27109	          $bibcode	Smoker J.V., Axon D.J., Davies R.D.; 1999, Astron. Astrophys., 341, 725
+ 27115	          $bibcode	Woudt P.A., Kraan-Korteweg R.C.; 2001, Astron. Astrophys., 380, 441
+ 27116	          $bibcode	Macri Lucas M., Huchra J.P., Sakai S., Mould J.R., Hughes S.M.G.; 2000, Astrophys. J. Suppl. Ser., 128, 461
+ 27117	          $bibcode	Karachentsev I. D., Sharina M. E., Huchtmeier W. K. 2000 A&A 362,  544  --  A group of galaxies around the giant spiral NGC 6946 
+ 27118	          $bibcode	Karachentsev I.D., Karachentseva V.E., Suchkov A.A., Grebel E.K.; 2000, Astron. Astrophys. Suppl. Ser., 145, 415
+ 27119	          $bibcode	Jerjen H., Binggeli B., Freeman K.C.; 2000, Astron. J., 119, 593
+ 27120	          $bibcode	Vader J.P., Chaboyer B.; 1994, Astron. J., 108, 1209
+ 27121	          $bibcode	Froebrich D., Meusinger H.; 2000, Astron. Astrophys. Suppl. Ser., 145, 229
+ 27123	          $bibcode	Karachentsev I. D., Karachentseva V. E., Kudrya Y. N., Sharina M. E., Parnovskij S. L. 1999 BSAO 47, 5 -- The Revised Flat Galaxy Catalogue (RFGC)
+ 29000	          $bibcode	Lauberts V.; Eso Photometric catalogue
+ 29001	          $bibcode	Lauberts A., Valentijn E.A.; 1989, The Surface Photometry Catalogue of the ESO-Uppsala Galaxies, European Southern Observatory
+ 31007	          $bibcode	HyperLeda, 2004-2007, measurements made on DSS2                                                                                                              
+ 31010	          $bibcode	Watson C.; 2005, San Diego, CA, USA                                                                                                                         
+ 31016	          $bibcode	Igor Karachentsev ; 2007, (galaxies verification for groups catalog)                                                                                         
+ 31017	          $bibcode	Kniazev et al. 2000, A&A, 357, 101 (HS 0822+3542 - a new nearby extremely metal-poor galaxy)
+ 33008	          $bibcode	Hog E., Fabricius C., Makarov V.V., Urban S., Corbin T., Wycoff G., Bastian U., Schwekendiek P., Wicenec A.; 2000, Astron. Astrophys., 355, 27 - Tycho
+ 44118	          $bibcode	Songaila A., Cowie L.L., Hu E.M., and Gardner J.P.; 1994, Astrophys. J., Suppl. 94, 461
+ 50003	          $bibcode	Jerjen H., Rekola R., Takalo L., Coleman M., Valtonen M. 2001 A&A 380,  90  --  Surface brightness fluctuation distances for nearby dwarf elliptical galaxies 
+ 50008	          $bibcode	Karachentsev I. D., Sharina M. E., Dolphin A. E., Grebel E. K. 2003 A&A 408,  111  --  Distances to nearby galaxies around IC 342 
+ 51001	          $bibcode	Jones D.H., Saunders W., Read M., Colless M.; 2005, PASA 22, 277 - 6dF DR2 - fluxes
+ 51012	          $bibcode	Gil De Paz A., Madore B.F., Pevunova O.Astrophys. J. Suppl. Ser. 147, 29 (2003)
+ 51015	          $bibcode	Bremnes, Binggeli, Prugniel 1999, A&AS, 137, 337-350 "Structure and stellar content of dwarf galaxies. III. B and R photometry of dwarf galaxies in the M 101 group and the nearby field"
+ 51020	          $bibcode	Dunlop J. S., Peacock J. A., Savage A., et al. 1989 MNRAS 238,  1171 
+ 51023	          $bibcode	de Carvalho R. R., Ribeiro A. L. B., Capelato H. V., Zepf S. E. 1997 ApJS 110,  1 
+ 51024	          $bibcode	Munn J. A., Koo D. C., Kron R. G., et al. 1997 ApJS 109,  45 
+ 51033	          $bibcode	Della Valle A., Mazzei P., Bettoni D., Aussel H., de Zotti G. 2006 A&A 454,  453 
+ 51055	          $bibcode	Roberts S., Davies J., Sabatini S., et al. 2004 MNRAS 352,  478 
+ 51057	          $bibcode	Wegner G., Bernardi M., Willmer C. N. A., et al. 2003 AJ 126,  2268 
+ 51064	          $bibcode	Woudt P. A., Kraan-Korteweg R. C., Cayatte V., Balkowski C., Felenbok P. 2004 A&A 415,  9 
+ 51090	          $bibcode	Meusinger H., Scholz R.-D., Irwin M., Lehmann H. 2002 A&A 392,  851 
+ 51118	          $bibcode	Yee H. K. C., Morris S. L., Lin H., et al. 2000 ApJS 129,  475 
+ 51140	          $bibcode	Ferguson H. C. 1989 AJ 98,  367 
+ 51158	          $bibcode	Karachentsev I. D., Sharina M. E., Dolphin A. E., et al. 2002 A&A 385,  21  --  New distances to galaxies in the Centaurus A group 
+ 51160	          $bibcode	Karachentsev I. D., Karachentseva V. E., Huchtmeier W. K., Makarov D. I. 2004 AJ 127,  2031  --  A Catalog of Neighboring Galaxies 
+ 51169	          $bibcode	van Zee L., Skillman E. D., Haynes M. P. 2004 AJ 128,  121
+ 51170	          $bibcode	Mercurio A., La Barbera F., Haines C. P., et al. 2008 MNRAS 387,  1374 
+ 51174	          $bibcode	Varela J., D'Onofrio M., Marmo C., et al. 2009 A&A 497,  667 
+ 51240	          $bibcode	Makarova L., Karachentsev I., Rizzi L., Tully R. B., Korotkova G. 2009 MNRAS 397,  1672
+ 51241	          $bibcode	Price J., Phillipps S., Huxor A., et al. 2009 MNRAS 397,  1816
+ 51244	          $bibcode	Barrena R., Boschin W., Girardi M., Spolaor M. 2007 A&A 467,  37 
+ 51245	          $bibcode	Barrena R., Boschin W., Girardi M., Spolaor M. 2007 A&A 469,  861 
+ 51247	          $bibcode	Girardi M., Boschin W., Barrena R. 2006 A&A 455,  45 
+ 51264	          $bibcode	Sabatini S., Davies J., van Driel W., et al. 2005 MNRAS 357,  819 
+ 51276	          $bibcode	Saviane I., Jerjen H. 2007 AJ 133,  1756  --  NGC 5011C: An Overlooked Dwarf Galaxy in the Centaurus A Group 
+ 51282	          $bibcode	Chiboucas K., Karachentsev I. D., Tully R. B. 2009 AJ 137,  3009
+ 51293	          $bibcode	Kopylov A. I., Tikhonov N. A., Fabrika S., Drozdovsky I., Valeev A. F. 2008 MNRAS 387,  L45  --  VV124 (UGC4879): a new transitional dwarf galaxy in the periphery of the Local Group 
+ 51302	          $bibcode	Caldwell N., Armandroff T. E., Da Costa G. S., Seitzer P. 1998 AJ 115,  535  --  Dwarf elliptical galaxies in the M81 Group - The structure and stellar populations of BK5N and F8D1 
+ 51366	          $bibcode	Lee M. G., Aparicio A., Tikonov N., Byun Y.-I., Kim E. 1999 AJ 118,  853  --  Stellar Populations and the Local Group Membership of the Dwarf Galaxy DDO 210 
+ 51368	          $bibcode	Lee M. G., Kim S. C. 2000 AJ 119,  777  --  Stellar Populations of the Sagittarius Dwarf Irregular Galaxy 
+ 51371	          $bibcode	Bellazzini M., Beccari G., Oosterloo T. A., et al. 2011 A&A 527,  A58  --  An optical and H i study of the dwarf Local Group galaxy VV124 = UGC4879. A gas-poor dwarf with a stellar disk? 
+ 51376	          $bibcode	Karachentsev I. D., Sharina M. E., Grebel E. K., et al. 2000 ApJ 542,  128  --  Hubble Space Telescope Photometry of the Dwarf Spheroidal Galaxy ESO 410-G005 
+ 51382	          $bibcode	Taylor V.A., et al. 2005, ApJ, 630, 784 "UBVR and Hubble Space Telescope Mid-Ultraviolet and Near-Infrared Surface Photometry and Radial Color Gradients of Late-Type, Irregular, and Peculiar Galaxies"
+ 51386	          $bibcode	Karachentsev I. D., Karachentseva V. E., Huchtmeier W. K. 2007, AstL, 33, 512 "New probable dwarf galaxies in northern groups of the Local Supercluster"
+ 51387	          $bibcode	Huchtmeier W. K., Karachentsev I. D., Karachentseva V. E. 2009, A&A, 506, 677 "HI-observations of dwarf galaxies in the Local Supercluster"
+ 51398	          $bibcode	Sharina M. E., et al. 2008 MNRAS 384, 1544 "Photometric properties of the Local Volume dwarf galaxies"
+ 51406	          $bibcode	Warren B.E., Jerjen H., Koribalski B.S. 2006, AJ, 131, 2056 "Stellar and Gas Properties of High H I Mass-to-Light Ratio Galaxies in the Local Universe"
+ 51421	          $bibcode	Lee M. G., Byun Y.-I. 1999 AJ 118,  817  --  Stellar Populations of the Dwarf Galaxy UKS 2323-326 in the Sculptor Group 
+ 51426	          $bibcode	Huchtmeier W. K., Karachentsev I. D., Karachentseva V. E. 2000 A&AS 147,  187 
+ 51441	          $bibcode	Tikhonov N. A., Karachentsev I. D. 1998 A&AS 128,  325  --  CCD photometry and distances of six resolved irregular galaxies in Canes Venatici 
+ 51450	          $bibcode	Makarova L. N., Karachentsev I. D., Georgiev T. B. 1997 AstL 23,  378  --  Distances to six irregular galaxies in the Canes Venatici cluster from the brightest stars 
+ 51452	          $bibcode	Tikhonov N. A., Karachentsev I. D. 1993 A&A 275,  39  --  Photometric Distances to Five Dwarf Galaxies in the Vicinity of M81 
+ 51460	          $bibcode	Karachentsev I. D., Sharina M. E., Dolphin A. E., et al. 2001 A&A 375,  359  --  WFPC2 observations of two dwarf spheroidal galaxies in the M 81 group 
+ 51476	          $bibcode	Jerjen H., Freeman K. C., Binggeli B. 2000 AJ 119,  166  --  Testing the Surface Brightness Fluctuations Method for Dwarf Elliptical Galaxies in the Centaurus A Group 
+ 51497	          $bibcode	Hopp U. 1999 A&AS 134,  317  --  Distance, structure and bright stellar content of the dwarf irregular galaxy UGC 685 
+ 51498	          $bibcode	Makarova L. N., Karachentsev I. D. 1998 A&AS 133,  181  --  CCD imaging of twenty nearby isolated irregular galaxies 
+ 51505	          $bibcode	Karachentsev I. D., Drozdovsky I. O. 1998 A&AS 131,  1  --  Distances to five resolved galaxies in the Canes Venatici cloud 
+ 51507	          $bibcode	Grossi M., Disney M. J., Pritzl B. J., et al. 2007 MNRAS 374,  107  --  Star formation history and evolution of gas-rich dwarf galaxies in the Centaurus A group 
+ 51515	          $bibcode	Sharina M. E., Karachentsev I. D., Tikhonov N. A. 1997 AstL 23,  373  --  Photometric distance to the galaxy NGC 6946 and its companion 
+ 51517	          $bibcode	Karachentsev I., Musella I. 1996 A&A 315,  348  --  Two dwarf galaxies in Orion with low radial velocities. 
+ 51519	          $bibcode	Sharina M. E., Karachentsev I. D., Tikhonov N. A. 1999 AstL 25,  322  --  Distances to eight nearby isolated low-luminosity galaxies 
+ 51523	          $bibcode	Sharina M. E., Karachentsev I. D., Tikhonov N. A. 1996 A&AS 119,  499  --  Photometric distances to NGC 628 and its four companions. 
+ 51535	          $bibcode	Karachentsev I., Local Volume database (private communication)
+ 51595	          $bibcode	Huchtmeier W. K., Karachentsev I. D., Karachentseva V. E. 2001 A&A 377,  801
+ 51600	          $bibcode	Tully R. B., Shaya E. J., Karachentsev I. D., et al. 2008 ApJ 676,  184
+ 51608	          $bibcode	Hunter D. A., Elmegreen B. G., Oh S.-H., et al. 2011 AJ 142,  121
+ 51627	          $bibcode	Pustilnik S. A., Tepliakova A. L. 2011 MNRAS 415,  1188
+ 51638	          $bibcode	Warren B. E., Jerjen H., Koribalski B. S. 2007 AJ 134,  1849
+ 51640	          $bibcode	Maddox S. J., Efstathiou G., Sutherland W. J. 1990 MNRAS 246,  433
+ 51646	          $bibcode	Makarov, Uklein, 2012, Ast.Bull. 67, 135 - A list of groups of dwarf galaxies in the Local Supercluster
+ 51666	          $bibcode	Cannon J. M., Bernstein-Cooper E. Z., Cave I. M., et al. 2012 AJ, 144, 82  (arXiv:1207.4953)
+ 51697	          $bibcode	Matthews L. D., Uson J. M. 2008 AJ 135,  291
+ 51702	          $bibcode	Karachentsev I. D., Kopylov A. I., Kopylova F. G. 1994 BSAO 38,  5
+ 51709	          $bibcode	Moiseev A. V., Pustilnik S. A., Kniazev A. Y. 2010 MNRAS 405,  2453
+ 51710	          $bibcode	Pustilnik S. A., Pramskij A. G., Kniazev A. Y. 2004 A&A 425,  51
+ 51712	          $bibcode	Salzer J. J., di Serego Alighieri S., Matteucci F., Giovanelli R., Haynes M. P. 1991 AJ 101,  1258
+ 51733	          $bibcode	Sharina M. E. 1991 SvAL 17,  383
+ 51742	          $bibcode	Saburova A. S., J&oacute;zsa G. I. G., Zasov A. V., Bizyaev D. V. 2013 A&A 554,  A128  (arXiv:1305.3112)
+ 51770	          $bibcode	Caldwell N., Armandroff T. E., Seitzer P., Da Costa G. S. 1992 AJ 103,  840
+ 51778	          $bibcode	de Swardt B., Kraan-Korteweg R. C., Jerjen H. 2010 MNRAS 407,  955
+ 51872	          $bibcode	Bothun G. D., Schombert J. M., Impey C. D., Schneider S. E. 1990 ApJ 360,  427
+ 51874	          $bibcode	Trentham N., Hodgkin S. 2002 MNRAS 333,  423
+ 51900	          $bibcode	Colless M., Saglia R. P., Burstein D., et al. 2001 MNRAS 321,  277
+ 51946	          $bibcode	Chengalur J. N., Pustilnik S. A., Makarov D. I., et al. 2015 MNRAS 448,  1634
+ 51974	          $bibcode	Ekta, Chengalur J. N., Pustilnik S. A. 2008 MNRAS 391,  881
+ 51976	          $bibcode	Pustilnik S. A., Martin J.-M. 2007 A&A 464,  859
+ 51981	          $bibcode	van Zee L., Barton E. J., Skillman E. D. 2004 AJ 128,  2797
+ 51985	          $bibcode	Karachentsev I. D., Sharina M. E., Makarov D. I., Perepelitsyna Y. A., Safonova E. S. 2015 Ap 58,  309 (arXiv:1508.02591)
+ 51994	          $bibcode	Buson L. M., Bettoni D., Mazzei P., Galletta G. 2015 AdAst 2015,  274968
+ 51995	          $bibcode	Matthews L. D., Gallagher J. S., III, van Driel W. 1999 AJ 118,  2751
+ 52010	          $bibcode	Dalcanton J. J., Bernstein R. A. 2000 AJ 120,  203
+ 52012	          $bibcode	de Grijs R. 1998 MNRAS 299,  595
+ 52024	          $bibcode	Zackrisson E., Bergvall N., Marquart T., Ostlin G. 2006 A&A 452,  857
+ 52025	          $bibcode	Karachentsev I. D., Riepe P., Zilch T., et al. 2015, AstBu, 70, 379 (arXiv:1511.00955)
+ 52046	          $bibcode	Karachentsev I. D., Chengalur J. N., Tully R. B., et al. 2016 AN 337,  306 (arXiv:1512.05907)
+ 52055	          $bibcode	Swaters R. A., Balcells M. 2002 A&A 390,  863
+ 52056	          $bibcode	Cannon J. M., Salzer J. J., Rosenberg J. L. 2009 ApJ 696,  2104
+ 52058	          $bibcode	Capaccioli M., Spavone M., Grado A., et al. 2015 A&A 581,  A10
+ 52126	          $bibcode	Liske J., Lemon D. J., Driver S. P., Cross N. J. G., Couch W. J. 2003 MNRAS 344,  307
+ 52127	          $bibcode	Caldwell N. 2006 ApJ 651,  822
+ 52130	          $bibcode	Morshidi-Esslinger Z., Davies J. I., Smith R. M. 1999 MNRAS 304,  297
+ 52153	          $bibcode	Blauensteiner M., Remmel P., Riepe P., et al. 2017 Ap 60,  295 (arXiv:1701.00615)
+ 52165	          $bibcode	UZC -- The Updated Zwicky Catalog -- Falco E. E., Kurtz M. J., Geller M. J., et al. 1999 PASP 111,  438
+ 52168	          $bibcode	Grogin N. A., Geller M. J. 1999 AJ 118,  2561
+ 52185	          $bibcode	de Jong R. S., van der Kruit P. C. 1994 A&AS 106,  
+ 52186	          $bibcode	Tully R. B., Verheijen M. A. W., Pierce M. J., Huang J.-S., Wainscoat R. J. 1996 AJ 112,  2471
+ 52189	          $bibcode	Tomita A., Maehara H. 2002 PASJ 54,  661
+ 52191	          $bibcode	Makarov D., Karachentsev I. D., Chengalur J. N., Uklein R., Marchuk A. 2013 arXiv  arXiv:1303.2477
+ 52194	          $bibcode	Karachenstev Igor. Verification of galaxies with VLG<2000 near SG equator.
+ 52203	          $bibcode	Cote P., Blakeslee J. P., Ferrarese L., et al. 2004 ApJS 153,  223 -- ACSVCS (ACS Virgo Cluster Survey)
+ 52215	          $bibcode	O'Neil K., Bothun G. D., Cornell M. E. 1997 AJ 113,  1212
+ 52216	          $bibcode	O'Neil K., Bothun G. D., Schombert J., Cornell M. E., Impey C. D. 1997 AJ 114,  2448
+ 52234	          $bibcode	Park H. S., Moon D.-S., Zaritsky D., et al. 2017 ApJ 848,  19
+ 52237	          $bibcode	Karachentsev I. D., Makarova L. N., Sharina M. E., Karachentseva V. E. 2017 AstBu 72,  376 (arXiv:1711.06074)
+ 52250	          $bibcode	Markarian B. E., Lipovetskii V. A., Stepanian D. A. 1983 Afz 19,  29
+ 52274	          $bibcode	Ho L. C., Li Z.-Y., Barth A. J., Seigar M. S., Peng C. Y. 2011 ApJS 197,  21
+ 55559	          $bibcode	Croom S.M., Smith R.J., Boyle B.J., Shanks T., Miller L Outram P.J.,Loaring N.S; 2004,Mon. Not. R. Astron. Soc. 349, 1397 (The 2dF QSO Redshift Survey (2QZ))
+124362	          $bibcode	Da Costa L.N., et al.; 1998, Astron. J., 116, 1
+124391	          $bibcode	Tully R.B.; 2002, private communication -  COMPILATION                                                                                                       
+#-- end of data table ----------------------------------------------------------
+# 446 lines were successfully retrieved
+#-------------------------------------------------------------------------------
+# Pleinpot version: 8.18.10
+# Date: 2026-01-04T19:34:23
