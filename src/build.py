@@ -65,12 +65,12 @@ def dsos_all():
             min_ax=min_ax,
             angle=d.angle,
             geometry=geometry,
-            ngc=ngc,
-            ic=ic,
             size=size,
             magnitude=magnitude,
             type=g_type,
             m=m,
+            ngc=ngc,
+            ic=ic,
         )
 
         if ctr % 10_000 == 0:
@@ -103,7 +103,7 @@ def build():
             "ic",
             "geometry",
         ],
-        sorting_columns=["magnitude"],
+        sorting_columns=["magnitude", "m", "ngc", "ic"],
         compression="snappy",
         row_group_size=100_000,
     )

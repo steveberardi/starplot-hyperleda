@@ -9,9 +9,11 @@ hyperleda = Catalog(path=BUILD_FILE_PATH)
 import timeit
 
 n = 1
+
+
 def get():
-    results = DSO.find(where=[_.magnitude < 18], catalog=hyperleda)
-    # results = DSO.find(where=[_.m ==31], catalog=hyperleda)
+    # results = DSO.find(where=[_.magnitude < 16], catalog=hyperleda)
+    results = DSO.find(where=[_.m == "31"], catalog=hyperleda)
     # print(len(results))
     """
     Row group size = 100 -> 2.36 sec / 66ms to find andromeda by M
@@ -21,7 +23,7 @@ def get():
 
 
 execution_time = timeit.timeit(stmt=get, number=n)
-print(execution_time/n)
+print(execution_time / n)
 exit()
 
 p = MapPlot(

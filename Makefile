@@ -3,7 +3,7 @@ PYTHON=./venv/bin/python
 
 REPO_NAME=starplot-hyperleda
 
-VERSION=$(shell ./venv/bin/python -c 'from src.build import __version__; print(__version__)')
+VERSION=$(shell ./venv/bin/python -c 'from src.settings import __version__; print(__version__)')
 VERSION_CHECK=$(shell gh release list \
 		-R steveberardi/$(REPO_NAME) \
 		--limit 1000 \
@@ -57,7 +57,7 @@ release-check:
 release: release-check
 	gh release create \
 		v$(VERSION) \
-		build/ongc.$(VERSION).parquet \
+		build/hyperleda.$(VERSION).parquet \
 		--title "v$(VERSION)" \
 		-R steveberardi/$(REPO_NAME)
 
