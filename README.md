@@ -15,5 +15,5 @@ HyperLeda catalog builder for [Starplot](https://github.com/steveberardi/starplo
 Data for this catalog was obtained from:
 
 - [HyperLeda - Catalog of galaxies : VII/237](https://cdsarc.cds.unistra.fr/viz-bin/cat/VII/237) (positions, geometry)
-- [Automatic extraction for millions of galaxies](https://aas.aanda.org/articles/aas/abs/2000/16/ds1851/ds1851.html). G. Paturel, Y. Fang, R. Garnier, C. Petit and J. Rousseau; 2000, Astron. Astrophys. Suppl. Ser., 146, 19 (via HyperLeda database (http://leda.univ-lyon1.fr)) (magnitude, in B band)
+- [Automatic extraction for millions of galaxies](https://aas.aanda.org/articles/aas/abs/2000/16/ds1851/ds1851.html). G. Paturel, Y. Fang, R. Garnier, C. Petit and J. Rousseau; 2000, Astron. Astrophys. Suppl. Ser., 146, 19 (magnitudes in B band, via [HyperLeda database](http://leda.univ-lyon1.fr)) 
 
