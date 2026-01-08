@@ -8,6 +8,18 @@ HyperLeda catalog builder for [Starplot](https://github.com/steveberardi/starplo
 2. `make build` to build catalog Parquet file
 3. `make release` to create release (only run from GitHub action)
 
+## Use this Catalog with Starplot
+
+```python
+hyperleda = Catalog(
+    path="hyperleda.0.1.0.parquet",  # or specify your custom data path
+    url="https://github.com/steveberardi/starplot-hyperleda/releases/download/v0.1.0/hyperleda.0.1.0.parquet",
+)
+
+m31 = DSO.get(m="31", catalog=hyperleda)
+
+```
+
 ---
 
 ## Acknowledgements
